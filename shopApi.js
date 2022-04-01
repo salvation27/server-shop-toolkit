@@ -14,7 +14,7 @@ const shop = [
         price:230,
         cat:'pc',
         featured:false
-    },
+    }
     // {
     //     id:3,
     //     name:'Product3',
@@ -49,4 +49,4 @@ const shop = [
     // },
 ]
 
-module.exports = products
+module.exports = shop
