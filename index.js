@@ -1,6 +1,7 @@
 const express = require('express')
 const cors = require('cors')
 const products = require('./productsApi')
+const shop = require('./shopApi')
 // ddddad
 const app = express()
 
@@ -15,6 +16,9 @@ app.get('/products',(req,res)=>{
     res.send(products)
 })
 
+app.get('/shop',(req,res)=>{
+    res.send(shop)
+})
 
 const port  = process.env.PORT || 5000
 
